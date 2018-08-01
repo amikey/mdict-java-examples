@@ -1,0 +1,9 @@
+system:configure java run time paths(add /path/to/jre/din to PATH)
+
+extratct rar
+
+in cmd:
+
+java -jar -Djava.library.path=jdef_src\build\native\debug Mdict视窗调试台
+
+EENNJJOOYY~~

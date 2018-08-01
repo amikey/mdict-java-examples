@@ -1,0 +1,19 @@
+mingw pkg_config 依赖库 http://ftp.acc.umu.se/pub/gnome/binaries/win64/dependencies/
+mingw glew http://www.grhmedia.com/glew.html
+
+
+gluXXX几何体: glew 和系统自带glu.lib
+
+-Djava.library.path=E:\C\src\build\nativea\Debug;
+
+
+编译jcef
+
+Jcef内嵌浏览器windows版本的编译及使用 https://www.cnblogs.com/muzipang/p/6582409.html
+jcef浅谈及编译过程（java） https://blog.csdn.net/duan1309/article/details/78523097?locationNum=9&fps=1
+
+编译java代码 compile.bat win32
+运行 run.bat win32 debug simple
+
+
+glfw非常好编译,无论是vs2017还是mingw. mingw只需要编译好得到libglfw3.a, 放入,mingw的bin/ 连接的时候静态链接 lglfw 美滋滋
