@@ -4,6 +4,6 @@ extratct rar
 
 in cmd:
 
-java -jar -Djava.library.path=jdef_src\build\native\debug Mdict视窗调试台
+java -jar -Djava.library.path=jdef_src\build\native\debug Mdict视窗调试台.jar
 
 EENNJJOOYY~~
